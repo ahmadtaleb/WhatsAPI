@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-require "../src/php/whatsprot.class.php";
+require "C:/src/php/whatsprot.class.php;
 
 function fgets_u($pStdn) {
 	$pArr = array($pStdn);
@@ -14,8 +14,8 @@ function fgets_u($pStdn) {
 }
 
 $nickname = "WhatsAPI Test";
-$sender = 	""; // Mobile number with country code (but without + or 00)
-$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc) 
+$sender = 962798147123	""; // Mobile number with country code (but without + or 00)
+$imei = 354913053272213	""; // MAC Address for iOS IMEI for other platform (Android/etc) 
 
 
 $countrycode = substr($sender, 0, 2);
